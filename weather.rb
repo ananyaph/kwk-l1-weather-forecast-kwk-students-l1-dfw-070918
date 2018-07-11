@@ -30,7 +30,7 @@ end
 
 def city_weather_info(weather)
   count = 0
-  weather.each do |key. value|
+  weather.each do |key,value|
    "The #{key} is #{value}."
 end
 end
