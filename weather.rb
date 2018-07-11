@@ -41,5 +41,5 @@ end
 
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
 
-
+def convert_temp (weather)
 
