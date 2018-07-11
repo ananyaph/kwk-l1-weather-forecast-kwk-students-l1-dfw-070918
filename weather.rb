@@ -31,11 +31,7 @@ end
 def city_weather_info(weather)
   count = 0
   weather.each do |key. value|
-    "The city is #{weather[count]}." 
-    count += 1
-    "The description is #{weather[count]}."
-    count += 1
-    "The temperature "
+   "The #{key} is #{value}."
 end
 end
 
