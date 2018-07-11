@@ -43,6 +43,7 @@ end
 
 def convert_temp (weather)
   celcius = (weather[:temperature_farenheit] -32/1.8).round(2)
+  celcius
 end
 
-celcius
+
