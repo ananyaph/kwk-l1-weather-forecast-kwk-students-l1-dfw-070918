@@ -29,8 +29,13 @@ end
 # `The city is New York.` `The description is Partly Cloudy.` `The temperature is 66.3.`
 
 def city_weather_info(weather)
+  count = 0
   weather.each do |key. value|
-    "The #{key} is #{value}. "
+    "The city is #{weather[count]}." 
+    count += 1
+    "The description is #{weather[count]}."
+    count += 1
+    "The temperature "
 end
 end
 
